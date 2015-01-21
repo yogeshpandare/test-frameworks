@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 13, 2015 5:08:19 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.yogesh.student.Student" table="STUDENT_3_CM">
+    <meta attribute="class-description">This class contains student details.</meta>
+        <id name="studentId" type="long">
+            <column name="STUDENT_ID" />
+            <generator class="native" />
+        </id>
+        <property name="studentName" type="java.lang.String" not-null="true">
+            <column name="STUDENT_NAME" />
+        </property>
+        <!-- <many-to-one name="studentAddress" class="com.yogesh.student.Address" fetch="join">
+            <column name="STUDENT_ADDRESS" />
+        </many-to-one> -->
+        <component name="studentAddress" class="com.yogesh.student.Address">
+			<property name="street" column="ADDRESS_STREET" type="string"
+				length="250" />
+			<property name="city" column="ADDRESS_CITY" type="string"
+				length="50" />
+			<property name="state" column="ADDRESS_STATE" type="string"
+				length="50" />
+			<property name="zipcode" column="ADDRESS_ZIPCODE" type="string"
+				length="10" />
+		</component>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 13, 2015 3:11:42 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.yogesh.student.Course" table="COURSE_2_MM">
+    <meta attribute="class-description">
+		This class contains course details.
+	</meta>
+        <id name="courseId" type="long">
+            <column name="course_id" />
+            <generator class="native" />
+        </id>
+        <property name="courseName" type="java.lang.String">
+            <column name="course_name" />
+        </property>
+    </class>
+</hibernate-mapping>

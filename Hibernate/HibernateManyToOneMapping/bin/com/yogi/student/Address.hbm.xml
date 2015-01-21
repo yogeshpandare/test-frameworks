@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 13, 2015 7:47:17 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.yogi.student.Address" table="ADDRESS_7_MTO">
+    <meta attribute="class-description">This class contains the student's address
+			details.</meta>
+        <id name="addressId" type="long">
+            <column name="ADDRESS_ID" />
+            <generator class="native" />
+        </id>
+        <property name="street" type="java.lang.String">
+            <column name="ADDRESS_STREET" />
+        </property>
+        <property name="city" type="java.lang.String">
+            <column name="ADDRESS_CITY" />
+        </property>
+        <property name="state" type="java.lang.String">
+            <column name="ADDRESS_STATE" />
+        </property>
+        <property name="zipcode" type="java.lang.String">
+            <column name="ADDRESS_ZIPCODE" />
+        </property>
+    </class>
+</hibernate-mapping>

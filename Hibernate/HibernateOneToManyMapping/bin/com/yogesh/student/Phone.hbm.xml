@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 13, 2015 12:07:09 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+<meta attribute="class-description">This class contains student's phone number
+			details.</meta>
+    <class name="com.yogesh.student.Phone" table="PHONE_1">
+        <id name="phoneId" type="long">
+            <column name="phone_id" />
+            <generator class="native" />
+        </id>
+        <property name="phoneType" type="java.lang.String" length="10">
+            <column name="phone_type" />
+        </property>
+        <property name="phoneNumber" type="java.lang.String" length="15">
+            <column name="phone_number" />
+        </property>
+    </class>
+</hibernate-mapping>
