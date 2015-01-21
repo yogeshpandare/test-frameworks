@@ -1,2 +1,2 @@
 # test-frameworks
-Spring/Struts/Hibernate
+Few demos for Spring/Struts/Hibernate 
