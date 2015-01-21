@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Struts2Example15">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="tiles-servlet-2.1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tiles-servlet-2.1.2/tiles-servlet-2.1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload-1.2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-fileupload-1.2.1/commons-fileupload-1.2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-1.1/commons-logging-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ognl-2.6.11.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ognl-2.6.11/ognl-2.6.11">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tiles-compat-2.1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tiles-compat-2.1.2/tiles-compat-2.1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-digester-1.8.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-digester-1.8.1/commons-digester-1.8.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-1.3.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-io-1.3.2/commons-io-1.3.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-beanutils-1.8.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-beanutils-1.8.0/commons-beanutils-1.8.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="freemarker-2.3.13.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/freemarker-2.3.13/freemarker-2.3.13">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tiles-jsp-2.1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tiles-jsp-2.1.2/tiles-jsp-2.1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="struts2-tiles-plugin-2.1.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/struts2-tiles-plugin-2.1.6/struts2-tiles-plugin-2.1.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tiles-core-2.1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tiles-core-2.1.2/tiles-core-2.1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tiles-api-2.1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tiles-api-2.1.2/tiles-api-2.1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="struts2-core-2.1.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/struts2-core-2.1.6/struts2-core-2.1.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="struts2-convention-plugin-2.1.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/struts2-convention-plugin-2.1.6/struts2-convention-plugin-2.1.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="junit-3.8.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/junit-3.8.1/junit-3.8.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xwork-2.1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xwork-2.1.2/xwork-2.1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Struts2Example15"/>
+        <property name="java-output-path" value="/Struts2Example15/build/classes"/>
+    </wb-module>
+</project-modules>

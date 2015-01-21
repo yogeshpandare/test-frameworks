@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Struts2Example77">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="commons-fileupload-1.2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-fileupload-1.2.1/commons-fileupload-1.2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-test-2.5.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-test-2.5.6/spring-test-2.5.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-1.1/commons-logging-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ognl-2.6.11.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ognl-2.6.11/ognl-2.6.11">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-1.3.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-io-1.3.2/commons-io-1.3.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="freemarker-2.3.13.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/freemarker-2.3.13/freemarker-2.3.13">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="struts2-convention-plugin-2.1.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/struts2-convention-plugin-2.1.6/struts2-convention-plugin-2.1.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="struts2-core-2.1.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/struts2-core-2.1.6/struts2-core-2.1.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xwork-2.1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xwork-2.1.2/xwork-2.1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="junit-3.8.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/junit-3.8.1/junit-3.8.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Struts2Example77"/>
+        <property name="java-output-path" value="/Struts2Example77/build/classes"/>
+    </wb-module>
+</project-modules>
